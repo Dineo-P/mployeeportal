@@ -1,0 +1,58 @@
+body{
+  background:url(https://i1.wp.com/cambridgeholidaycottages.com/wp-content/uploads/2014/08/Wood-Background-Repeat.jpg?ssl=1);
+  top:0;
+  left:0;
+  margin:0;
+}
+.header h1{
+  color:brown;
+  text-align:center;
+}
+.cont{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+    
+
+}
+mat-card{
+  margin-right: 50px;
+  background-color: black;
+  margin-bottom: 30px;
+  height: 300px;
+   width: 200px;
+   margin-left:25px;
+   padding-top: 30px;
+   border: 2pt solid red;
+   box-shadow: 10px 10px 10px solid red;
+   
+   
+}
+img{
+  width:115%;
+  height:150px;
+  overflow: hidden;
+  background-size: cover;
+   float: center ;
+}
+mat-card-content{
+  color:brown;
+  font-size:10pt;
+}
+
+.button{
+  
+  font-weight:bolder;
+  color:brown;
+background-color: whitesmoke;
+  width: 45%;
+  border-left: 6pt solid brown;
+}
+.nav {
+
+  margin-bottom: 20px;
+  font-weight: bolder;
+  background-color: whitesmoke;
+  
+
+}

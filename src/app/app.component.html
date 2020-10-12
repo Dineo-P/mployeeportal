@@ -1,0 +1,33 @@
+<body>
+
+
+<div class ="header">
+     <h1>EMPLOYEE PORTAL DASHBOARD</h1>
+</div>
+<div class ="nav">
+<mat-tab-group mat-align-tabs="center">
+  <mat-tab label="Add Employee"></mat-tab>
+  <mat-tab label="Projects"></mat-tab>
+  <mat-tab label="Departments"></mat-tab>
+</mat-tab-group>
+</div>
+
+<div class ="cont">
+  
+  <mat-card *ngFor="let emp of empDetails">
+ 
+     <img mat-card-image src="{{emp.image}}">
+
+      <mat-card-content>
+            <h3>{{emp.name}} {{emp.surname}}<br/> {{emp.age}}  <br/>{{emp.position}}</h3>
+     </mat-card-content>
+
+     <mat-card-actions>
+       <button class ="button" mat-raised-button>Delete</button>
+       <button class ="button" mat-raised-button>Update</button>
+     </mat-card-actions>
+
+  </mat-card>
+ </div>
+
+</body>
